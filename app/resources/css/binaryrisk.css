@@ -1,0 +1,90 @@
+div.binaryrisk-base {
+	content: "";
+	position: relative;
+	width: 10px;
+	height: 30px;
+	-webkit-transform: rotate(45deg) skew(5deg);
+  	-webkit-transform-origin: 50% 50%;
+	left: 15px;
+	top: 3px;
+}
+
+div.binaryrisk-test{
+	border: 10px dashed red;
+}
+
+div.binaryrisk-checked {
+	border: 5px solid red;
+	border-top-style: none;
+	border-left-style: none
+}
+
+div.binaryrisk-unchecked {
+	border: 5px solid white;
+	border-top-style: none;
+	border-left-style: none
+}
+
+div.binaryrisk-size {
+	content: " ";
+	height: 40px;
+	-webkit-border-radius: 20px;
+ 	width: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+div.binaryrisk-back-unchecked {
+	background-color: #d5d5d5;
+}
+
+div.binaryrisk-back-checked {
+	background-color: white;
+}
+
+div.binaryrisk-score-base {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+div.binaryrisk-score-title {
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+	/*-webkit-border-radius: 15px;
+	border: 5px solid #00d4d4;*/
+}
+
+div.binaryrisk-score-score {
+	position: relative;
+	left: 20px;
+	text-align: center;
+}
+
+div.binaryrisk-score-score-low {
+	color: white;
+	font-size: 1.4em;
+	-webkit-border-radius: 15px;
+	background-color: #00d042;
+}
+
+div.binaryrisk-score-score-medium {
+	color: white;
+	font-size: 1.4em;
+	-webkit-border-radius: 15px;
+	background-color: orange;}
+
+div.binaryrisk-score-score-high {
+	color: white;
+	font-size: 1.4em;
+	-webkit-border-radius: 15px;
+	background-color: red;
+}
+
+div.binaryrisk-installtext {
+	font-size: 1.4em;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin-top: 8px;
+}

@@ -1,0 +1,77 @@
+div#title {
+	font: 2em Geneva;
+	text-align: center;
+}
+div#main {	
+	width: 100%;
+}
+
+div.twitter{
+	position: relative;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.menu {
+	width: 80%;
+	top: 3em;
+	background-color: white;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+	top: 5em;
+	position: relative;
+}
+
+div#droids {
+	
+	position: relative;
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	top: 6em;
+}
+
+div#invite {
+	
+	display: block;
+	text-align: center;
+	top: 7em;
+	position: relative;
+	width: 80%;
+	left: 10%;
+}
+
+div.text {
+	font: 1.25em Geneva;
+}
+
+div.container {
+	float: none;
+	width: 15em;
+	text-align: center;
+	margin: 1em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#copyright {
+	bottom: 10px;
+	left: 10px;
+	position: absolute;
+}
+
+div.icon {
+	margin: 5px;
+}

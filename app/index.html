@@ -1,0 +1,82 @@
+<!doctype html>
+<html manifest="binaryrisk.manifest">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
+    <title>Binary Risk</title>
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="binaryrisk-icon.png" />
+    <link rel="apple-touch-startup-image" media="screen and (orientation: portrait)" href="binaryrisk-startup.png" />
+    <link rel="stylesheet" href="lib/touch/resources/css/sencha-touch.css" type="text/css">
+	<!--<link rel="stylesheet" href="resources/css/application.css" type="text/css">-->
+    <link rel="stylesheet" href="resources/css/binaryrisk.css" type="text/css">
+	<!--
+	LICENSE
+	
+	The Binary Risk Analysis project (BRA) is a tool for quickly assessing the risk
+	of an event. The project implements the CC BY-SA 3.0 licensed methodology and
+	algorithms found at <https://binary.protect.io>.
+	
+    Copyright (C) 2011, Ben Sapiro (ben at sapiro dot net | ben at protect dot io)
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+	A copy of the license is in COPYING.TXT which can be found at
+	<https://binary.protect.io/app/COPYING.TXT>.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+	-->
+	<!--
+	LICENSE NOTE
+	
+	This application is built using the SENCHA TOUCH framework under their 
+	licensing terms - please see their license for mode details
+	on the included libraries <http://www.sencha.com/products/touch/license/>
+	-->
+</head>
+<body>
+    <script type="text/javascript" src="lib/touch/sencha-touch.js"></script>
+    <script type="text/javascript" src="lib/touch/pkgs/platform/mvc.js"></script>
+    
+    <div id="sencha-app">
+        <script type="text/javascript" src="app/routes.js"></script>
+        <script type="text/javascript" src="app/app.js"></script>
+        
+        <!-- Place your model files here -->
+        <div id="sencha-models">
+            <script type="text/javascript" src="app/models/Question.js"></script>
+			<script type="text/javascript" src="app/models/Answer.js"></script>
+			<script type="text/javascript" src="app/models/Score.js"></script>
+        </div>
+        
+		<!-- Place your model files here -->
+        <div id="sencha-stores">
+            <script type="text/javascript" src="app/stores/Questions.js"></script>
+			<script type="text/javascript" src="app/stores/Answers.js"></script>
+			<script type="text/javascript" src="app/stores/Scores.js"></script>
+        </div>
+
+        <!-- Place your view files here -->
+        <div id="sencha-views">
+			<script type="text/javascript" src="app/views/Viewport.js"></script>
+        </div>
+        
+        <!-- Place your controller files here -->
+        <div id="sencha-controllers">
+			<script type="text/javascript" src="app/controllers/questions.js"></script>
+            <script type="text/javascript" src="app/controllers/answers.js"></script>
+			<script type="text/javascript" src="app/controllers/score.js"></script>
+        </div>
+    </div>
+</body>
+</html>
